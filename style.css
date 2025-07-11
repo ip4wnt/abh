@@ -194,7 +194,7 @@ text-transform: uppercase;
 /* ###################### FORM ###################### */
 
 .formWrapp {
-    padding: 5rem;
+    padding: 5rem 5rem 5rem 5rem;
     grid-row-start: row5;
     grid-column-start: start;
     grid-row-end: row5;
@@ -207,7 +207,7 @@ text-transform: uppercase;
 border: 1px solid #B9B9B9;
 background: #FFF;
 box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.16);
-margin: 2rem 8rem 5rem 8rem;
+margin: 2rem 8rem 2rem 8rem;
 text-align: center;
 }
 
@@ -237,16 +237,7 @@ background: linear-gradient(90deg, #FFE98D -1.44%, #FBBC00 101.28%), #D9D9D9;
 text-decoration: none;
 }
 
-/* .form input {
-   border: 1px solid #ACACAC;
-    border-radius: 0.4rem 0rem 0rem 0.4rem; 
-    padding: 0.4rem 0.4rem;
-    margin: 0;
-} */
 
-.form button,label,input {
-
-}
 
 
 
@@ -288,3 +279,32 @@ margin-top: 2rem;
   margin: 30px auto;
   padding-bottom: 3rem;
 }
+
+
+@media (max-width: 1180px) { 
+        .mainWrapp {
+    display: grid;
+    grid-template-columns: [start] 65vw [line2] 8vw [line3] 27vw [end];
+    grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row5] auto [end];
+}
+.formWrapp {
+    padding: 5rem 1rem 5rem 1rem;
+    grid-row-start: row5;
+    grid-column-start: start;
+    grid-row-end: row5;
+    grid-column-end: end; 
+    z-index: 1555;
+}
+.formCase {
+    border-radius: 1.5rem;
+border: 1px solid #B9B9B9;
+background: #FFF;
+box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.16);
+margin: 2rem 2rem 2rem 2rem;
+text-align: center;
+}
+ }
+
+
+
+

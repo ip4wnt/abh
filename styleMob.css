@@ -1,0 +1,274 @@
+@media (orientation: portrait) { 
+    /* ###################### MAIN ###################### */
+
+.mainWrapp {
+    display: grid;
+    grid-template-columns: [start] 85vw [line2] 15vw [line3] 0vw [end];
+    grid-template-rows: [row1] auto [row2] auto [row3] auto [row4] auto [row5] auto [row6] auto [end];
+}
+
+.hist01, .about {
+    font-size: 1.2rem;
+}
+
+
+/* ###################### HEADER ###################### */
+
+p.bigText {
+    color: #E30613;
+    font-size: 3.875rem;
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 0.4rem 0;
+    text-transform: uppercase;
+   }
+
+p.bigSubline {
+    color: #E30613;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.4rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.header {
+    margin: 3rem 2rem 0 3rem;
+    grid-row-start: row1;
+    grid-column-start: start;
+    grid-row-end: row2;
+    grid-column-end: line2; 
+}
+
+
+/* ###################### POBEDA ###################### */
+
+.pobeda {
+    background: #E30613;
+    height: 100%;
+    padding: 3rem 1rem 1rem 1rem;
+    grid-row-start: row1;
+    grid-column-start: line2;
+    grid-row-end: end;
+    grid-column-end: end; 
+text-align: center;
+z-index: 1;
+}
+
+.pobeda img {
+    width: 100%;
+}
+
+/* ###################### ABOUT ###################### */
+.about {
+    grid-row-start: row2;
+    grid-column-start: start;
+    grid-row-end: row3;
+    grid-column-end: line2; 
+    text-align: left;
+    padding: 3rem 3rem 0 3rem;
+justify-content: start;
+justify-self: left;
+    width: 90%;
+}
+
+.button {
+    border-radius: 1.47531rem;
+    border: 0.738px solid #000;
+    color: #000;
+    background-color: #FFF;
+text-decoration: none;
+text-align: center;
+padding: 0.5rem 1rem 0.5rem 1rem;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+}
+.butWrap {
+margin-top: 2rem;
+}
+.button:hover {
+    background-color: #e3ebf9;
+  }
+
+.logos {
+      display: flex;
+  justify-content:start;
+  margin: 30px auto;
+}
+
+.logos img {
+      display: block;
+  max-width: 100%;
+}
+.logoGarant {
+width: 8rem;
+}
+.logoFPG {
+    padding: 0.4rem 0 0.5rem 0.5rem;
+ width: 10rem;
+
+}
+
+/* ###################### MAP ###################### */
+.map {
+    padding: 0.1rem;
+    text-align: center;
+    grid-row-start: row3;
+    grid-column-start: start;
+    grid-row-end: row4;
+    grid-column-end: end; 
+    z-index: 1555;
+}
+
+.map img {
+    width: 100%;
+}
+
+.mount {
+    grid-row-start: row5;
+    grid-column-start: start;
+    grid-row-end: row6;
+    grid-column-end: end; 
+    z-index: 0;
+}
+
+.mount img {
+    width: 100vw;
+}
+
+.mountUp img {
+    align-items: end;
+    width: 100vw;
+}
+
+.mountUp {
+    align-items: end;
+    grid-row-start: row5;
+    grid-column-start: start;
+    grid-row-end: row6;
+    grid-column-end: end; 
+    z-index: 1;
+}
+
+
+/* ###################### HIST ###################### */
+
+.hist01 {
+    align-self: self-end;
+    grid-row-start: row4;
+    grid-column-start: start;
+    grid-row-end: row5;
+    grid-column-end: line2; 
+    z-index: 1;
+    text-align: right;
+    padding: 0 2rem 3rem 3rem;
+}
+.accent {
+    color: #E30613;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.hist01 p {
+    margin: 0;
+}
+
+/* ###################### FORM ###################### */
+
+.formWrapp {
+    padding: 3rem 2rem 3rem 2rem;
+    grid-row-start: row6;
+    grid-column-start: start;
+    grid-row-end: end;
+    grid-column-end: end; 
+    z-index: 1555;
+}
+
+.formCase {
+    border-radius: 1.5rem;
+border: 1px solid #B9B9B9;
+background: #FFF;
+box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.16);
+margin: 0;
+text-align: center;
+}
+
+.formText {
+    color: #000;
+text-align: center;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 1rem 5rem 0rem 5rem;
+
+}
+.form {
+    margin: 0 0 3rem 0;
+}
+.form a {
+color: #000;
+font-style: normal;
+padding: 0.15rem 2rem 0.4rem 2rem;
+font-weight: 700;
+line-height: normal;
+font-size: 1.4rem;
+border: 1px solid #ACACAC;
+border-radius: 0.4rem;
+background: linear-gradient(90deg, #FFE98D -1.44%, #FBBC00 101.28%), #D9D9D9;
+text-decoration: none;
+}
+
+
+
+
+
+/* ###################### ABOUT PAGE ###################### */
+
+.mainWrappAbout {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mainWrappAbout p {
+    text-align: left;
+}
+
+.aboutpage-buttonWrap {
+    margin-top: 3rem;
+}
+
+.mainWrappAbout p.bigText {
+text-align: center;
+margin-bottom: 3rem;
+font-size: 2.8rem;
+   }
+
+.mainWrappAbout p.bigSubline {
+text-align: center;
+font-size: 1.8rem;
+margin-top: 2rem;
+}
+
+.mainWrappAbout li p {
+    margin-top: 0;
+}
+
+.mainWrappAbout .logos {
+      display: flex;
+  justify-content:center;
+  margin: 30px auto;
+  padding-bottom: 3rem;
+}
+
+
+}
