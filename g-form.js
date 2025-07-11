@@ -6,10 +6,10 @@ $(function() {
     let appLink = "https://script.google.com/macros/s/AKfycbwkGLosqjiGZFJwmXfh5zzndm-n4-Z7khVoiK6w603wYDy99K27hBko-1zzNCa5uOE/exec";
  
     // Сообщение при успешной отправке данных
-    let successRespond = 'Сообщение успешно отправлено. Посмотрите результат <a target="_blank" href="https://docs.google.com/spreadsheets/d/1XcTivCQL4EZJf1x2kB4UwGj5bAi0sfpx1PwtaKgOWHo/edit?usp=sharing">тут</a>';
+    let successRespond = 'Сообщение успешно отправлено. Посмотрите результат <a target="_blank" href="https://docs.google.com/spreadsheets/d/1bdxhA2s2KHKel4np87nC675RSpLSlqzlvrrYJcI8QFk/edit?gid=0#gid=0">тут</a>';
  
     // Сообщение при ошибке в отправке данных
-    let errorRespond = 'Не удалось отправить сообщение. Cвяжитесь с администратором сайта по адресу <a href="mailto:smart-landing@ya.ru">smart-landing@ya.ru</a>';
+    let errorRespond = 'Не удалось отправить сообщение.';
  
     // Id текущей формы
     let form = $('#' + $(this).attr('g-form-1'))[0];
