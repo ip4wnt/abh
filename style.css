@@ -84,8 +84,8 @@ justify-self: right;
 }
 
 .button {
-    border-radius: 1.47531rem;
-    border: 0.738px solid #000;
+    border-radius: 1.5rem;
+    border: 1px solid #000;
     color: #000;
     background-color: #FFF;
 text-decoration: none;
