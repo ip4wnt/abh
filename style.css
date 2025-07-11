@@ -26,22 +26,24 @@ body {
 
 /* ###################### HEADER ###################### */
 
-p.voin {
+p.bigText {
     color: #E30613;
     font-size: 3.875rem;
     font-style: bold;
     font-weight: 700;
     line-height: normal;
     margin: 0 0 0.4rem 0;
+    text-transform: uppercase;
    }
 
-p.vosst {
+p.bigSubline {
     color: #E30613;
     font-size: 2.625rem;
     font-style: normal;
     font-weight: 400;
     line-height: 4.4rem;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .header {
@@ -222,24 +224,67 @@ padding: 2rem 5rem 0rem 5rem;
 .form {
     margin: 0 0 4rem 0;
 }
-.form button {
+.form a {
 color: #000;
 font-style: normal;
-padding: 0.4rem 2rem;
+padding: 0.15rem 2rem 0.4rem 2rem;
 font-weight: 700;
 line-height: normal;
+font-size: 1.4rem;
 border: 1px solid #ACACAC;
-    border-radius: 0rem 0.4rem 0.4rem 0rem;
+border-radius: 0.4rem;
 background: linear-gradient(90deg, #FFE98D -1.44%, #FBBC00 101.28%), #D9D9D9;
+text-decoration: none;
 }
 
-.form input {
+/* .form input {
    border: 1px solid #ACACAC;
     border-radius: 0.4rem 0rem 0rem 0.4rem; 
     padding: 0.4rem 0.4rem;
     margin: 0;
-}
+} */
 
 .form button,label,input {
-font-size: 1.4rem;
+
+}
+
+
+
+/* ###################### ABOUT PAGE ###################### */
+
+.mainWrappAbout {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.mainWrappAbout p {
+    text-align: left;
+}
+
+.aboutpage-buttonWrap {
+    margin-top: 3rem;
+}
+
+.mainWrappAbout p.bigText {
+text-align: center;
+margin-bottom: 3rem;
+font-size: 2.8rem;
+   }
+
+.mainWrappAbout p.bigSubline {
+text-align: center;
+font-size: 1.8rem;
+margin-top: 2rem;
+}
+
+.mainWrappAbout li p {
+    margin-top: 0;
+}
+
+.mainWrappAbout .logos {
+      display: flex;
+  justify-content:center;
+  margin: 30px auto;
+  padding-bottom: 3rem;
 }
